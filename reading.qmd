@@ -101,6 +101,14 @@ title: "Reading List"
   
 ### Logic
 
+* Set Theory for Computing Science. Glynn Winskel
+* Proof and Disproof in Formal Logic. Bornat
+* Introduction to Computation - Haskell, Logic, and Automate. Sannella, Fourman, Peng, Wadler
+* The Computer Modelling of Mathematical Reasoning. Alan Bundy
+* Modelling Puzzles in First Order Logic. Groza
+
+#### 
+
 * Intuitionistic Logic. Dirk Van Dalen
 * On The Meanings of the Logical Constants and the Justifications of the Logical Laws. Per Martin-Loef
 * Natural Deduction - A Proof-theoretical Study. Prawitz
@@ -124,10 +132,20 @@ title: "Reading List"
 * Proofs are Programs: 19th Century Logic and 21st Century Computing. Wadler
 * Programs as Proofs. Jorgen Steensgaard-Madsen
 * On the Correspondence Between Proofs and $\Lambda$-Terms. Gallier
-* Program = Proof. Samuel Mimram
+
+### 
+
+* Program = Proof (Agda). Samuel Mimram
 * Interactive Theorem Proving and Program Development. Coq'Art: The Calculus of Inductive Constructions. Bertot, Castéran
+* Mathematical Components (Coq). Mahboubi, Tassi. 
+
+#### Isabelle
+
 * A Proof Assitant for Higher-Order Logic with Isabelle. Nipkow, Paulson, Wenzel
 * Concrete Semantics with Isabelle/HOL. Nipkow, Klein
+
+###
+
 * Lectures on the Curry-Howard Isomorphism. Sorensen
 * Derivation and Computation - Taking the Curry-Howard Correspondence Seriously. Simmons
 * Adapting Proofs-as-Programs - The Curry-Howard Protocol. Poernomo, Crossley, Wirsing
@@ -136,8 +154,8 @@ title: "Reading List"
 
 ### Dependent Type Theory 
 
-* Programs and Proofs - Mechanizing Mathematics with Dependent Types, Lecture Notes. Ilya Sergey
-* Certified Programming with Dependent Types. Chlipala
+* Programs and Proofs - Mechanizing Mathematics with Dependent Types, Lecture Notes (Coq). Ilya Sergey
+* Certified Programming with Dependent Types (Coq). Chlipala
 * Dependently Typed Programming in Agda. Ulf Norell, James Chapman
 * Type-driven Development with Idris. Edwin Brady
 
