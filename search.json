@@ -8,5 +8,65 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>index.html</span>"
     ]
+  },
+  {
+    "objectID": "reading.html",
+    "href": "reading.html",
+    "title": "2  Reading List",
+    "section": "",
+    "text": "2.1 Pragmatics, Practical, General Intro",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#pragmatics-practical-general-intro",
+    "href": "reading.html#pragmatics-practical-general-intro",
+    "title": "2  Reading List",
+    "section": "",
+    "text": "Principles of Programming Languages. MacLennan\nProgramming Languages - Concepts & Constructs. Sethi\nProgramming Language Pragmatics. Scott\nProgramming Language Concepts. Sebesta\nProgramming Languages - Principles and Practice. Louden, Lambert",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#pl-theory",
+    "href": "reading.html#pl-theory",
+    "title": "2  Reading List",
+    "section": "2.2 PL Theory",
+    "text": "2.2 PL Theory\n\n2.2.1 Intro\n\nConcepts in Programming Languages. Mitchell\nPrinciples of Programming Languages. Tennent\nIntroduction to the Theory of Programming Languages. Meyer\nIntroduction to the Theory of Programming Languages. Dowek, Levy\nPrinciples of Programming Languages. Dowek\nProgramming Language Concepts (2nd Ed). Sestoft\nProgramming Language Linguistics. Gelernter\nProgramming Language Theory and its Implementation - Applicative and Imperative Paradigms. Gordon\nDynamically Typed Languages. Laurence Tratt\nOn Understanding Types, Data Abstraction, and Polymorphism. Cardelli, Wegner\nProgramming Language Explorations (2nd ed). Toal, Strieker, Berardini\nAn Introduction to Data Types. Cleaveland\n\n\n\n2.2.2 \n\nTypes and Programming Languages. Pierce\nEssentials of Programming Languages. Friedman, Wand\nTheories of Programming Languages. Reynolds\nPractical Foundations for Programming Languages. Harper\nThe Formal Semantics of Programming Languages - An Introduction. Winskel\nFoundations for Programming Languages. Mitchell\nConcepts and Semantics of Programming Languages - A Semantical Approach with OCaml and Python. Hardin et al\nConcepts and Semantics of Programming Languages - Modular and Object-Oriented Constructs with OCaml, Python, C++, Ada, and Java. Hardin et al\nSemantics of Programming Languages. Tennent\nSemantics of Programming Languages - Structures and Techniques. Gunter\nThe Structure of Typed Programming Languages. Schmidt\nAbstract Computing Machines - A Lambda Calculus Perspective. Kluge\nDesign Concepts in Programming Languages. Tubak, Gifford, Sheldon\nUnderstanding Programming Languages. Cliff B Jones\nComputation and Deduction. Pfenning\nProgramming Language Foundations. Aaron Stump\nThe Foundations of Program Verification. Loeckx, Sieber\nAbstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints. Cousot, Cousot\n\n\n\n2.2.3 Theory of OOP Languages\n\nA Theory of Objects. Abadi, Cardelli\nFoundations of Object-Oriented Languages - Types and Semantics. Bruce\n\n\n\n2.2.4 Denotational Semantics\n\nA Practical Introduction to Denotational Semantics. Allison\nDenotational Semantics - A Methodology for Language Development. Schmidt\nDenotational Semantics - Lecture Notes. Winskel\n\n\n\n2.2.5 Connection Between Hoare Semantics, While Semantics etc\n\nPredicate Transformer Semantics. Manes\nPrograms, Recursion and Unbounded Choice. Hesselink\nWhile Loops and Programs. Harold Simmons\nConnections Between Predicate Transformers and Denotational Semantics. Jensen\n\n\n\n2.2.6 Induction and Inductive Definitions\n\nForms of Recursion and Induction. Simmons\nAn Introduction to Inductive Definitions. Aczel",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#lambda-calculus-type-theory-intuitionistic-logic-constructive-mathematics",
+    "href": "reading.html#lambda-calculus-type-theory-intuitionistic-logic-constructive-mathematics",
+    "title": "2  Reading List",
+    "section": "2.3 Lambda Calculus, Type Theory, Intuitionistic Logic, Constructive Mathematics",
+    "text": "2.3 Lambda Calculus, Type Theory, Intuitionistic Logic, Constructive Mathematics\n\n2.3.1 Type Theory\n\nType Systems for Programming Languages. Harper\nMartin-Loef’s Type Theory. Norstroem, Petersson, Smith\nProgramming in Martin-Loef’s Type Theory - An Introduction. Norstroem, Petersson, Smith\nIntuitionistic Type Theory. Per Martin-Loef\nHomotopy Type Theory - Univalent Foundations of Mathematics\nProofs and Types. Girard, Taylor, Lafont\nConstructive Logics - Part I: A Tutorial on Proof Systems and Typed \\(\\Lambda\\)-Calculi. Jean Gallier\nDo-it-Yourself Type Theory. Backhouse, Chisholm, Malcolm, Saaman\nOn the Meaning and Construction of the Rules in Martin-Loef’s Theory of Types\nPropositions and Specifications of Programs in Martin-Loef’s Type Theory. Norstroem, Smith\nDerivation of a Parsing Algorithm in Martin-Loef’s Theory of Types. Chisholm\nPropositions as Types. Philip Wadler\nConstructive Mathematics and Computer Programming. Martin-Loef\nIntroduction to Generalized Type Systems. Barendregt\nPolymorphic Typing of an Algorithmic Language. Xavier Leroy\nTyped Lambda Calculus / Calculus of Constructions. Brandl\nTreatise on Intuitionistic Type Theory. Granstroem\nType Theory and Formal Proof. Nederpelt, Guevers\n\n\n\n2.3.2 Logic\n\nSet Theory for Computing Science. Glynn Winskel\nProof and Disproof in Formal Logic. Bornat\nIntroduction to Computation - Haskell, Logic, and Automate. Sannella, Fourman, Peng, Wadler\nThe Computer Modelling of Mathematical Reasoning. Alan Bundy\nModelling Puzzles in First Order Logic. Groza\n\n\n2.3.2.1 \n\nIntuitionistic Logic. Dirk Van Dalen\nOn The Meanings of the Logical Constants and the Justifications of the Logical Laws. Per Martin-Loef\nNatural Deduction - A Proof-theoretical Study. Prawitz\nNatural Deduction. Tennant\nLogic and Computation - Interactive Proof with Cambridge LCF. Paulson\nAxiomatic Method and Category Theory. Rodin\n\n\n\n\n2.3.3 Lambda Calculus\n\nLambda-Calculus, Combinators, and Functional Programming. Revesz\nFunctional Programming and Lambda Calculus. Barendregt\nIntroduction to Lambda Calculus. Berengregt, Barendsen\nLambda Calculus with Types. Barendregt, Dekkers, Statman\nLambda Calculi with Types. Barendregt",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#proof-assistants-programs-as-proofs-curry-howard-isomorphism",
+    "href": "reading.html#proof-assistants-programs-as-proofs-curry-howard-isomorphism",
+    "title": "2  Reading List",
+    "section": "2.4 Proof Assistants, Programs as Proofs, Curry-Howard Isomorphism",
+    "text": "2.4 Proof Assistants, Programs as Proofs, Curry-Howard Isomorphism\n\nPrograms as Proofs: A Synopsis. Constable\nProofs are Programs: 19th Century Logic and 21st Century Computing. Wadler\nPrograms as Proofs. Jorgen Steensgaard-Madsen\nOn the Correspondence Between Proofs and \\(\\Lambda\\)-Terms. Gallier\n\n\n2.4.1 \n\nProgram = Proof (Agda). Samuel Mimram\nInteractive Theorem Proving and Program Development. Coq’Art: The Calculus of Inductive Constructions. Bertot, Castéran\nMathematical Components (Coq). Mahboubi, Tassi.\n\n\n2.4.1.1 Isabelle\n\nA Proof Assitant for Higher-Order Logic with Isabelle. Nipkow, Paulson, Wenzel\nConcrete Semantics with Isabelle/HOL. Nipkow, Klein\n\n\n\n\n2.4.2 \n\nLectures on the Curry-Howard Isomorphism. Sorensen\nDerivation and Computation - Taking the Curry-Howard Correspondence Seriously. Simmons\nAdapting Proofs-as-Programs - The Curry-Howard Protocol. Poernomo, Crossley, Wirsing\nNatural Deduction and the Curry-Howard Isomorphism. Andreas Abel\n\n\n\n2.4.3 Dependent Type Theory\n\nPrograms and Proofs - Mechanizing Mathematics with Dependent Types, Lecture Notes (Coq). Ilya Sergey\nCertified Programming with Dependent Types (Coq). Chlipala\nDependently Typed Programming in Agda. Ulf Norell, James Chapman\nType-driven Development with Idris. Edwin Brady",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reading List</span>"
+    ]
+  },
+  {
+    "objectID": "reading.html#category-theory",
+    "href": "reading.html#category-theory",
+    "title": "2  Reading List",
+    "section": "2.5 Category Theory",
+    "text": "2.5 Category Theory\n\nAn Introduction to Category Theory. Simmons\nBasic Category Theory. Leinster\nCategory Theory (2nd ed). Steve Awodey\nCategory Theory in Context. Emily Riehl\nCategory Theory for Computing Science. Barr\nBasic Category Theory for Computer Scientists. Pierce\nCategory Theory and Lambda Calculus. Mario Roman Garcia\nCategory Theory as an Extension of Martin-Loef Type Theory. Dyckhoff\nLecture Notes in Category Theory. Winskel",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reading List</span>"
+    ]
   }
 ]

@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Igor Dimitrov">
-<meta name="dcterms.date" content="2024-05-17">
 
-<title>Programming Langauges Theory and Pragmatics</title>
+<title>2&nbsp; Reading List – Programming Langauges Theory and Pragmatics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./reading.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,10 +69,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar floating fullcontent quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./reading.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Reading List</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -113,13 +140,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./reading.html" class="sidebar-item-text sidebar-link">
+  <a href="./reading.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Reading List</span></span></a>
   </div>
 </li>
@@ -128,32 +155,56 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#pragmatics-practical-general-intro" id="toc-pragmatics-practical-general-intro" class="nav-link active" data-scroll-target="#pragmatics-practical-general-intro"><span class="header-section-number">2.1</span> Pragmatics, Practical, General Intro</a></li>
+  <li><a href="#pl-theory" id="toc-pl-theory" class="nav-link" data-scroll-target="#pl-theory"><span class="header-section-number">2.2</span> PL Theory</a>
+  <ul>
+  <li><a href="#intro" id="toc-intro" class="nav-link" data-scroll-target="#intro"><span class="header-section-number">2.2.1</span> Intro</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">2.2.2</span> </a></li>
+  <li><a href="#theory-of-oop-languages" id="toc-theory-of-oop-languages" class="nav-link" data-scroll-target="#theory-of-oop-languages"><span class="header-section-number">2.2.3</span> Theory of OOP Languages</a></li>
+  <li><a href="#denotational-semantics" id="toc-denotational-semantics" class="nav-link" data-scroll-target="#denotational-semantics"><span class="header-section-number">2.2.4</span> Denotational Semantics</a></li>
+  <li><a href="#connection-between-hoare-semantics-while-semantics-etc" id="toc-connection-between-hoare-semantics-while-semantics-etc" class="nav-link" data-scroll-target="#connection-between-hoare-semantics-while-semantics-etc"><span class="header-section-number">2.2.5</span> Connection Between Hoare Semantics, While Semantics etc</a></li>
+  <li><a href="#induction-and-inductive-definitions" id="toc-induction-and-inductive-definitions" class="nav-link" data-scroll-target="#induction-and-inductive-definitions"><span class="header-section-number">2.2.6</span> Induction and Inductive Definitions</a></li>
+  </ul></li>
+  <li><a href="#lambda-calculus-type-theory-intuitionistic-logic-constructive-mathematics" id="toc-lambda-calculus-type-theory-intuitionistic-logic-constructive-mathematics" class="nav-link" data-scroll-target="#lambda-calculus-type-theory-intuitionistic-logic-constructive-mathematics"><span class="header-section-number">2.3</span> Lambda Calculus, Type Theory, Intuitionistic Logic, Constructive Mathematics</a>
+  <ul>
+  <li><a href="#type-theory" id="toc-type-theory" class="nav-link" data-scroll-target="#type-theory"><span class="header-section-number">2.3.1</span> Type Theory</a></li>
+  <li><a href="#logic" id="toc-logic" class="nav-link" data-scroll-target="#logic"><span class="header-section-number">2.3.2</span> Logic</a>
+  <ul class="collapse">
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"><span class="header-section-number">2.3.2.1</span> </a></li>
+  </ul></li>
+  <li><a href="#lambda-calculus" id="toc-lambda-calculus" class="nav-link" data-scroll-target="#lambda-calculus"><span class="header-section-number">2.3.3</span> Lambda Calculus</a></li>
+  </ul></li>
+  <li><a href="#proof-assistants-programs-as-proofs-curry-howard-isomorphism" id="toc-proof-assistants-programs-as-proofs-curry-howard-isomorphism" class="nav-link" data-scroll-target="#proof-assistants-programs-as-proofs-curry-howard-isomorphism"><span class="header-section-number">2.4</span> Proof Assistants, Programs as Proofs, Curry-Howard Isomorphism</a>
+  <ul>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"><span class="header-section-number">2.4.1</span> </a>
+  <ul class="collapse">
+  <li><a href="#isabelle" id="toc-isabelle" class="nav-link" data-scroll-target="#isabelle"><span class="header-section-number">2.4.1.1</span> Isabelle</a></li>
+  </ul></li>
+  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3"><span class="header-section-number">2.4.2</span> </a></li>
+  <li><a href="#dependent-type-theory" id="toc-dependent-type-theory" class="nav-link" data-scroll-target="#dependent-type-theory"><span class="header-section-number">2.4.3</span> Dependent Type Theory</a></li>
+  </ul></li>
+  <li><a href="#category-theory" id="toc-category-theory" class="nav-link" data-scroll-target="#category-theory"><span class="header-section-number">2.5</span> Category Theory</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Programming Langauges Theory and Pragmatics</h1>
+<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Reading List</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Igor Dimitrov </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 17, 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -163,11 +214,205 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>2025-03-21 # Preface {.unnumbered}</p>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<section id="pragmatics-practical-general-intro" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="pragmatics-practical-general-intro"><span class="header-section-number">2.1</span> Pragmatics, Practical, General Intro</h2>
+<ul>
+<li>Principles of Programming Languages. MacLennan</li>
+<li>Programming Languages - Concepts &amp; Constructs. Sethi</li>
+<li>Programming Language Pragmatics. Scott</li>
+<li>Programming Language Concepts. Sebesta</li>
+<li>Programming Languages - Principles and Practice. Louden, Lambert</li>
+</ul>
+</section>
+<section id="pl-theory" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="pl-theory"><span class="header-section-number">2.2</span> PL Theory</h2>
+<section id="intro" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="intro"><span class="header-section-number">2.2.1</span> Intro</h3>
+<ul>
+<li>Concepts in Programming Languages. Mitchell</li>
+<li>Principles of Programming Languages. Tennent</li>
+<li>Introduction to the Theory of Programming Languages. Meyer</li>
+<li>Introduction to the Theory of Programming Languages. Dowek, Levy</li>
+<li>Principles of Programming Languages. Dowek</li>
+<li>Programming Language Concepts (2nd Ed). Sestoft</li>
+<li>Programming Language Linguistics. Gelernter</li>
+<li>Programming Language Theory and its Implementation - Applicative and Imperative Paradigms. Gordon</li>
+<li>Dynamically Typed Languages. Laurence Tratt</li>
+<li>On Understanding Types, Data Abstraction, and Polymorphism. Cardelli, Wegner</li>
+<li>Programming Language Explorations (2nd ed). Toal, Strieker, Berardini</li>
+<li>An Introduction to Data Types. Cleaveland</li>
+</ul>
+</section>
+<section id="section" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="section"><span class="header-section-number">2.2.2</span> </h3>
+<ul>
+<li>Types and Programming Languages. Pierce</li>
+<li>Essentials of Programming Languages. Friedman, Wand</li>
+<li>Theories of Programming Languages. Reynolds</li>
+<li>Practical Foundations for Programming Languages. Harper</li>
+<li>The Formal Semantics of Programming Languages - An Introduction. Winskel</li>
+<li>Foundations for Programming Languages. Mitchell</li>
+<li>Concepts and Semantics of Programming Languages - A Semantical Approach with OCaml and Python. Hardin et al</li>
+<li>Concepts and Semantics of Programming Languages - Modular and Object-Oriented Constructs with OCaml, Python, C++, Ada, and Java. Hardin et al</li>
+<li>Semantics of Programming Languages. Tennent</li>
+<li>Semantics of Programming Languages - Structures and Techniques. Gunter</li>
+<li>The Structure of Typed Programming Languages. Schmidt</li>
+<li>Abstract Computing Machines - A Lambda Calculus Perspective. Kluge</li>
+<li>Design Concepts in Programming Languages. Tubak, Gifford, Sheldon</li>
+<li>Understanding Programming Languages. Cliff B Jones</li>
+<li>Computation and Deduction. Pfenning</li>
+<li>Programming Language Foundations. Aaron Stump</li>
+<li>The Foundations of Program Verification. Loeckx, Sieber</li>
+<li>Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints. Cousot, Cousot</li>
+</ul>
+</section>
+<section id="theory-of-oop-languages" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="theory-of-oop-languages"><span class="header-section-number">2.2.3</span> Theory of OOP Languages</h3>
+<ul>
+<li>A Theory of Objects. Abadi, Cardelli</li>
+<li>Foundations of Object-Oriented Languages - Types and Semantics. Bruce</li>
+</ul>
+</section>
+<section id="denotational-semantics" class="level3" data-number="2.2.4">
+<h3 data-number="2.2.4" class="anchored" data-anchor-id="denotational-semantics"><span class="header-section-number">2.2.4</span> Denotational Semantics</h3>
+<ul>
+<li>A Practical Introduction to Denotational Semantics. Allison</li>
+<li>Denotational Semantics - A Methodology for Language Development. Schmidt</li>
+<li>Denotational Semantics - Lecture Notes. Winskel</li>
+</ul>
+</section>
+<section id="connection-between-hoare-semantics-while-semantics-etc" class="level3" data-number="2.2.5">
+<h3 data-number="2.2.5" class="anchored" data-anchor-id="connection-between-hoare-semantics-while-semantics-etc"><span class="header-section-number">2.2.5</span> Connection Between Hoare Semantics, While Semantics etc</h3>
+<ul>
+<li>Predicate Transformer Semantics. Manes</li>
+<li>Programs, Recursion and Unbounded Choice. Hesselink</li>
+<li>While Loops and Programs. Harold Simmons</li>
+<li>Connections Between Predicate Transformers and Denotational Semantics. Jensen</li>
+</ul>
+</section>
+<section id="induction-and-inductive-definitions" class="level3" data-number="2.2.6">
+<h3 data-number="2.2.6" class="anchored" data-anchor-id="induction-and-inductive-definitions"><span class="header-section-number">2.2.6</span> Induction and Inductive Definitions</h3>
+<ul>
+<li>Forms of Recursion and Induction. Simmons</li>
+<li>An Introduction to Inductive Definitions. Aczel</li>
+</ul>
+</section>
+</section>
+<section id="lambda-calculus-type-theory-intuitionistic-logic-constructive-mathematics" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="lambda-calculus-type-theory-intuitionistic-logic-constructive-mathematics"><span class="header-section-number">2.3</span> Lambda Calculus, Type Theory, Intuitionistic Logic, Constructive Mathematics</h2>
+<section id="type-theory" class="level3" data-number="2.3.1">
+<h3 data-number="2.3.1" class="anchored" data-anchor-id="type-theory"><span class="header-section-number">2.3.1</span> Type Theory</h3>
+<ul>
+<li>Type Systems for Programming Languages. Harper</li>
+<li>Martin-Loef’s Type Theory. Norstroem, Petersson, Smith</li>
+<li>Programming in Martin-Loef’s Type Theory - An Introduction. Norstroem, Petersson, Smith</li>
+<li>Intuitionistic Type Theory. Per Martin-Loef</li>
+<li>Homotopy Type Theory - Univalent Foundations of Mathematics</li>
+<li>Proofs and Types. Girard, Taylor, Lafont</li>
+<li>Constructive Logics - Part I: A Tutorial on Proof Systems and Typed <span class="math inline">\(\Lambda\)</span>-Calculi. Jean Gallier</li>
+<li>Do-it-Yourself Type Theory. Backhouse, Chisholm, Malcolm, Saaman</li>
+<li>On the Meaning and Construction of the Rules in Martin-Loef’s Theory of Types</li>
+<li>Propositions and Specifications of Programs in Martin-Loef’s Type Theory. Norstroem, Smith</li>
+<li>Derivation of a Parsing Algorithm in Martin-Loef’s Theory of Types. Chisholm</li>
+<li>Propositions as Types. Philip Wadler</li>
+<li>Constructive Mathematics and Computer Programming. Martin-Loef</li>
+<li>Introduction to Generalized Type Systems. Barendregt</li>
+<li>Polymorphic Typing of an Algorithmic Language. Xavier Leroy</li>
+<li>Typed Lambda Calculus / Calculus of Constructions. Brandl</li>
+<li>Treatise on Intuitionistic Type Theory. Granstroem</li>
+<li>Type Theory and Formal Proof. Nederpelt, Guevers</li>
+</ul>
+</section>
+<section id="logic" class="level3" data-number="2.3.2">
+<h3 data-number="2.3.2" class="anchored" data-anchor-id="logic"><span class="header-section-number">2.3.2</span> Logic</h3>
+<ul>
+<li>Set Theory for Computing Science. Glynn Winskel</li>
+<li>Proof and Disproof in Formal Logic. Bornat</li>
+<li>Introduction to Computation - Haskell, Logic, and Automate. Sannella, Fourman, Peng, Wadler</li>
+<li>The Computer Modelling of Mathematical Reasoning. Alan Bundy</li>
+<li>Modelling Puzzles in First Order Logic. Groza</li>
+</ul>
+<section id="section-1" class="level4" data-number="2.3.2.1">
+<h4 data-number="2.3.2.1" class="anchored" data-anchor-id="section-1"><span class="header-section-number">2.3.2.1</span> </h4>
+<ul>
+<li>Intuitionistic Logic. Dirk Van Dalen</li>
+<li>On The Meanings of the Logical Constants and the Justifications of the Logical Laws. Per Martin-Loef</li>
+<li>Natural Deduction - A Proof-theoretical Study. Prawitz</li>
+<li>Natural Deduction. Tennant</li>
+<li>Logic and Computation - Interactive Proof with Cambridge LCF. Paulson</li>
+<li>Axiomatic Method and Category Theory. Rodin</li>
+</ul>
+</section>
+</section>
+<section id="lambda-calculus" class="level3" data-number="2.3.3">
+<h3 data-number="2.3.3" class="anchored" data-anchor-id="lambda-calculus"><span class="header-section-number">2.3.3</span> Lambda Calculus</h3>
+<ul>
+<li>Lambda-Calculus, Combinators, and Functional Programming. Revesz</li>
+<li>Functional Programming and Lambda Calculus. Barendregt</li>
+<li>Introduction to Lambda Calculus. Berengregt, Barendsen</li>
+<li>Lambda Calculus with Types. Barendregt, Dekkers, Statman</li>
+<li>Lambda Calculi with Types. Barendregt</li>
+</ul>
+</section>
+</section>
+<section id="proof-assistants-programs-as-proofs-curry-howard-isomorphism" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="proof-assistants-programs-as-proofs-curry-howard-isomorphism"><span class="header-section-number">2.4</span> Proof Assistants, Programs as Proofs, Curry-Howard Isomorphism</h2>
+<ul>
+<li>Programs as Proofs: A Synopsis. Constable</li>
+<li>Proofs are Programs: 19th Century Logic and 21st Century Computing. Wadler</li>
+<li>Programs as Proofs. Jorgen Steensgaard-Madsen</li>
+<li>On the Correspondence Between Proofs and <span class="math inline">\(\Lambda\)</span>-Terms. Gallier</li>
+</ul>
+<section id="section-2" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="section-2"><span class="header-section-number">2.4.1</span> </h3>
+<ul>
+<li>Program = Proof (Agda). Samuel Mimram</li>
+<li>Interactive Theorem Proving and Program Development. Coq’Art: The Calculus of Inductive Constructions. Bertot, Castéran</li>
+<li>Mathematical Components (Coq). Mahboubi, Tassi.</li>
+</ul>
+<section id="isabelle" class="level4" data-number="2.4.1.1">
+<h4 data-number="2.4.1.1" class="anchored" data-anchor-id="isabelle"><span class="header-section-number">2.4.1.1</span> Isabelle</h4>
+<ul>
+<li>A Proof Assitant for Higher-Order Logic with Isabelle. Nipkow, Paulson, Wenzel</li>
+<li>Concrete Semantics with Isabelle/HOL. Nipkow, Klein</li>
+</ul>
+</section>
+</section>
+<section id="section-3" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="section-3"><span class="header-section-number">2.4.2</span> </h3>
+<ul>
+<li>Lectures on the Curry-Howard Isomorphism. Sorensen</li>
+<li>Derivation and Computation - Taking the Curry-Howard Correspondence Seriously. Simmons</li>
+<li>Adapting Proofs-as-Programs - The Curry-Howard Protocol. Poernomo, Crossley, Wirsing</li>
+<li>Natural Deduction and the Curry-Howard Isomorphism. Andreas Abel</li>
+</ul>
+</section>
+<section id="dependent-type-theory" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="dependent-type-theory"><span class="header-section-number">2.4.3</span> Dependent Type Theory</h3>
+<ul>
+<li>Programs and Proofs - Mechanizing Mathematics with Dependent Types, Lecture Notes (Coq). Ilya Sergey</li>
+<li>Certified Programming with Dependent Types (Coq). Chlipala</li>
+<li>Dependently Typed Programming in Agda. Ulf Norell, James Chapman</li>
+<li>Type-driven Development with Idris. Edwin Brady</li>
+</ul>
+</section>
+</section>
+<section id="category-theory" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="category-theory"><span class="header-section-number">2.5</span> Category Theory</h2>
+<ul>
+<li>An Introduction to Category Theory. Simmons</li>
+<li>Basic Category Theory. Leinster</li>
+<li>Category Theory (2nd ed). Steve Awodey</li>
+<li>Category Theory in Context. Emily Riehl</li>
+<li>Category Theory for Computing Science. Barr</li>
+<li>Basic Category Theory for Computer Scientists. Pierce</li>
+<li>Category Theory and Lambda Calculus. Mario Roman Garcia</li>
+<li>Category Theory as an Extension of Martin-Loef Type Theory. Dyckhoff</li>
+<li>Lecture Notes in Category Theory. Winskel</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -571,11 +816,11 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="index.html">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./reading.html" class="pagination-link" aria-label="Reading List">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Reading List</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
