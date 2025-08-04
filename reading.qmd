@@ -1,0 +1,156 @@
+---
+title: "Reading List"
+---
+
+## Pragmatics, Practical, General Intro
+
+* Principles of Programming Languages. MacLennan
+* Programming Languages - Concepts & Constructs. Sethi
+* Programming Language Pragmatics. Scott
+* Programming Language Concepts. Sebesta
+* Programming Languages - Principles and Practice. Louden, Lambert
+
+## PL Theory 
+
+### Intro
+
+* Concepts in Programming Languages. Mitchell
+* Principles of Programming Languages. Tennent
+* Introduction to the Theory of Programming Languages. Meyer
+* Introduction to the Theory of Programming Languages. Dowek, Levy
+* Principles of Programming Languages. Dowek
+* Programming Language Concepts (2nd Ed). Sestoft
+* Programming Language Linguistics. Gelernter
+* Programming Language Theory and its Implementation - Applicative and Imperative Paradigms. Gordon
+* Dynamically Typed Languages. Laurence Tratt
+* On Understanding Types, Data Abstraction, and Polymorphism. Cardelli, Wegner
+* Programming Language Explorations (2nd ed). Toal, Strieker, Berardini 
+* An Introduction to Data Types. Cleaveland
+
+  
+### 
+
+* Types and Programming Languages. Pierce
+* Essentials of Programming Languages. Friedman, Wand
+* Theories of Programming Languages. Reynolds
+* Practical Foundations for Programming Languages. Harper
+* The Formal Semantics of Programming Languages - An Introduction. Winskel
+* Foundations for Programming Languages. Mitchell
+* Concepts and Semantics of Programming Languages - A Semantical Approach with OCaml and Python. Hardin et al 
+* Concepts and Semantics of Programming Languages - Modular and Object-Oriented Constructs with OCaml, Python, C++, Ada, and Java. Hardin et al 
+* Semantics of Programming Languages. Tennent
+* Semantics of Programming Languages - Structures and Techniques. Gunter
+* The Structure of Typed Programming Languages. Schmidt
+* Abstract Computing Machines - A Lambda Calculus Perspective. Kluge
+* Design Concepts in Programming Languages. Tubak, Gifford, Sheldon
+* Understanding Programming Languages. Cliff B Jones
+* Computation and Deduction. Pfenning
+* Programming Language Foundations. Aaron Stump
+* The Foundations of Program Verification. Loeckx, Sieber
+* Abstract Interpretation: A Unified Lattice Model for Static Analysis of Programs by Construction or Approximation of Fixpoints. Cousot, Cousot
+
+
+### Theory of OOP Languages
+
+* A Theory of Objects. Abadi, Cardelli
+* Foundations of Object-Oriented Languages - Types and Semantics. Bruce
+
+
+### Denotational Semantics
+
+* A Practical Introduction to Denotational Semantics. Allison
+* Denotational Semantics - A Methodology for Language Development. Schmidt
+* Denotational Semantics - Lecture Notes. Winskel
+
+### Connection Between Hoare Semantics, While Semantics etc
+
+* Predicate Transformer Semantics. Manes
+* Programs, Recursion and Unbounded Choice. Hesselink
+* While Loops and Programs. Harold Simmons
+* Connections Between Predicate Transformers and Denotational Semantics. Jensen
+
+### Induction and Inductive Definitions
+
+* Forms of Recursion and Induction. Simmons
+* An Introduction to Inductive Definitions. Aczel
+
+## Lambda Calculus, Type Theory, Intuitionistic Logic, Constructive Mathematics
+
+
+### Type Theory
+
+* Type Systems for Programming Languages. Harper
+* Martin-Loef's Type Theory. Norstroem, Petersson, Smith
+* Programming in Martin-Loef's Type Theory - An Introduction. Norstroem, Petersson, Smith
+* Intuitionistic Type Theory. Per Martin-Loef
+* Homotopy Type Theory - Univalent Foundations of Mathematics
+* Proofs and Types. Girard, Taylor, Lafont
+* Constructive Logics - Part I: A Tutorial on Proof Systems and Typed $\Lambda$-Calculi. Jean Gallier
+* Do-it-Yourself Type Theory. Backhouse, Chisholm, Malcolm, Saaman
+* On the Meaning and Construction of the Rules in Martin-Loef's Theory of Types
+* Propositions and Specifications of Programs in Martin-Loef's Type Theory. Norstroem, Smith
+* Derivation of a Parsing Algorithm in Martin-Loef's Theory of Types. Chisholm
+* Propositions as Types. Philip Wadler
+* Constructive Mathematics and Computer Programming. Martin-Loef
+* Introduction to Generalized Type Systems. Barendregt
+* Polymorphic Typing of an Algorithmic Language. Xavier Leroy
+* Typed Lambda Calculus / Calculus of Constructions. Brandl
+* Treatise on Intuitionistic Type Theory. Granstroem
+* Type Theory and Formal Proof. Nederpelt, Guevers
+
+  
+### Logic
+
+* Intuitionistic Logic. Dirk Van Dalen
+* On The Meanings of the Logical Constants and the Justifications of the Logical Laws. Per Martin-Loef
+* Natural Deduction - A Proof-theoretical Study. Prawitz
+* Natural Deduction. Tennant
+* Logic and Computation - Interactive Proof with Cambridge LCF. Paulson
+* Axiomatic Method and Category Theory. Rodin
+  
+
+### Lambda Calculus
+
+* Lambda-Calculus, Combinators, and Functional Programming. Revesz
+* Functional Programming and Lambda Calculus. Barendregt
+* Introduction to Lambda Calculus. Berengregt, Barendsen
+* Lambda Calculus with Types. Barendregt, Dekkers, Statman
+* Lambda Calculi with Types. Barendregt
+
+
+## Proof Assistants, Programs as Proofs, Curry-Howard Isomorphism
+
+* Programs as Proofs: A Synopsis. Constable
+* Proofs are Programs: 19th Century Logic and 21st Century Computing. Wadler
+* Programs as Proofs. Jorgen Steensgaard-Madsen
+* On the Correspondence Between Proofs and $\Lambda$-Terms. Gallier
+* Program = Proof. Samuel Mimram
+* Interactive Theorem Proving and Program Development. Coq'Art: The Calculus of Inductive Constructions. Bertot, Castéran
+* A Proof Assitant for Higher-Order Logic with Isabelle. Nipkow, Paulson, Wenzel
+* Concrete Semantics with Isabelle/HOL. Nipkow, Klein
+* Lectures on the Curry-Howard Isomorphism. Sorensen
+* Derivation and Computation - Taking the Curry-Howard Correspondence Seriously. Simmons
+* Adapting Proofs-as-Programs - The Curry-Howard Protocol. Poernomo, Crossley, Wirsing
+* Natural Deduction and the Curry-Howard Isomorphism. Andreas Abel
+
+
+### Dependent Type Theory 
+
+* Programs and Proofs - Mechanizing Mathematics with Dependent Types, Lecture Notes. Ilya Sergey
+* Certified Programming with Dependent Types. Chlipala
+* Dependently Typed Programming in Agda. Ulf Norell, James Chapman
+* Type-driven Development with Idris. Edwin Brady
+
+
+
+## Category Theory
+
+* An Introduction to Category Theory. Simmons
+* Basic Category Theory. Leinster
+* Category Theory (2nd ed). Steve Awodey
+* Category Theory in Context. Emily Riehl
+* Category Theory for Computing Science. Barr
+* Basic Category Theory for Computer Scientists. Pierce
+* Category Theory and Lambda Calculus. Mario Roman Garcia
+* Category Theory as an Extension of Martin-Loef Type Theory. Dyckhoff
+* Lecture Notes in Category Theory. Winskel

@@ -8,6 +8,8 @@ book:
   chapters:
     - index.qmd
   page-navigation: true
+  downloads: pdf
+
 
 # bibliography: references.bib
 
@@ -17,5 +19,5 @@ format:
   pdf:
     documentclass: scrreprt
 
-
+toc-depth: 4
 
